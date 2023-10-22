@@ -1,11 +1,11 @@
-import landingimg from "../assets/images/landing.png";
+import landingImg from "../assets/images/landing.png";
 const Landing = () => {
   return (
     <section className="bg-[#1c2230]">
       <div className="container">
         <div className="element-center flex-col pt-[150px]">
           <div className="w-[750px] h-full max-w-full">
-            <img className="w-full h-fit" src={landingimg} alt="landing-img" />
+            <img className="w-full h-fit" src={landingImg} alt="landing-img" />
           </div>
           <div className="text-white text-center">
             <h1 className="text-[30px] md:text-[40px] font-semibold mb-[15px]">
