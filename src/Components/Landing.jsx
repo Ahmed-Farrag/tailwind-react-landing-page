@@ -6,7 +6,7 @@ const Landing = () => {
           <div className="w-[750px] h-full max-w-full">
             <img
               className="w-full h-fit"
-              src="/src/assets/images/landing.png"
+              src="../assets/images/landing.png"
               alt="landing-img"
             />
           </div>
