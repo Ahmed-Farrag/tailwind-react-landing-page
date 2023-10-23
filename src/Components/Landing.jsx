@@ -1,3 +1,4 @@
+import carve from "../assets/images/bg-curvy-desktop.svg";
 import landingImg from "../assets/images/landing.png";
 const Landing = () => {
   return (
@@ -24,6 +25,9 @@ const Landing = () => {
             Get Started
           </a>
         </div>
+      </div>
+      <div className="w-full h-[200px]">
+        <img src={carve} alt="img" className="w-full h-full" />
       </div>
     </section>
   );
