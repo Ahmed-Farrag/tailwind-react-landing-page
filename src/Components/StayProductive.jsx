@@ -2,7 +2,7 @@ import stay from "../assets/images/illustration-stay-productive.png";
 import arrow from "../assets/images/icon-arrow.svg";
 const StayProductive = () => {
   return (
-    <section>
+    <section className="pb-[150px]">
       <div className="container grid grid-col-1 md:grid-cols-2 gap-[]30px place-items-center">
         <div>
           <img src={stay} alt="stay img" />
