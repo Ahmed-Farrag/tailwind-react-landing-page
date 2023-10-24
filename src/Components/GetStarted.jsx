@@ -11,9 +11,18 @@ const GetStarted = () => {
             distinctio voluptas cupiditate enim atque aspernatur nostrum facere.
             In illo accusantium repudiandae magni.
           </p>
-          <form className="w-full flex justify-between items-center flex-wrap">
-            <input type="email" placeholder="email@example.com" />
-            <button type="submit">Get Started For Free</button>
+          <form className="w-full flex justify-between items-center flex-wrap md:px-[60px] gap-[30px]">
+            <input
+              type="email"
+              placeholder="email@example.com"
+              className="w-full md:flex-1 h-[50px] rounded-[30px] pl-[30px] outline-none border-none text-sm text-black font-medium"
+            />
+            <button
+              type="submit"
+              className="w-full md:w-[200px] h-[50px] bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200 rounded-[30px]"
+            >
+              Get Started For Free
+            </button>
           </form>
         </div>
       </div>

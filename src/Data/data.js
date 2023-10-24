@@ -6,6 +6,9 @@ import icon4 from "../assets/images/icon-collaboration.svg";
 import prof1 from "../assets/images/profile-1.jpg";
 import prof2 from "../assets/images/profile-2.jpg";
 import prof3 from "../assets/images/profile-3.jpg";
+// contact
+import emailIcon from "../assets/images/icon-email.svg";
+import phoneIcon from "../assets/images/icon-phone.svg";
 
 export const data = [
   {
@@ -52,4 +55,9 @@ export const tesData = [
     position: "Founder & Ceo, Huddle",
     name: "Alia",
   },
+];
+
+export const contactData = [
+  { icon: phoneIcon, text: "+201157932907" },
+  { icon: emailIcon, text: "example@gmail.com" },
 ];
