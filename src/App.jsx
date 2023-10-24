@@ -1,3 +1,4 @@
+// import { Button } from "@material-tailwind/react";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Home />
+      {/* <Button color="blue">Button</Button> */}
       <Footer />
     </>
   );

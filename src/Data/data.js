@@ -42,14 +42,14 @@ export const tesData = [
     name: "Ahmed",
   },
   {
-    id: 1,
+    id: 2,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque rerum harum",
     image: prof2,
     position: "Founder & Ceo, Huddle",
     name: "Farrag",
   },
   {
-    id: 1,
+    id: 3,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eaque rerum harum",
     image: prof3,
     position: "Founder & Ceo, Huddle",
@@ -61,3 +61,13 @@ export const contactData = [
   { icon: phoneIcon, text: "+201157932907" },
   { icon: emailIcon, text: "example@gmail.com" },
 ];
+export const linksData = [
+  "About Us",
+  "Contact Us",
+  "Jobs",
+  "Terms",
+  "Press",
+  "Privacy",
+  "Blog",
+];
+export const socialIcons = ["Facebook", "twitter", "instagram"];
